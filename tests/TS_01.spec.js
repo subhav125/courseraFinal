@@ -29,7 +29,7 @@ test.describe.serial('TS_01 : Web development Courses',()=>{
     test("filtering the search",async ()=>{
         //selecting the course with only beginner level and english language
         await homePage.filter()
-        //validation
+        //validationgit 
         await expect(homePage.beginner_checked).toBeChecked()
     })
     test("storing output in object",async ()=>{
