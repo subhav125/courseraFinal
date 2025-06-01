@@ -1,0 +1,667 @@
+# Test info
+
+- Name: TS_01 : Web development Courses >> storing output in object
+- Location: C:\Users\2398094\OneDrive - Cognizant\Desktop\Final\tests\TS_01.spec.js:35:9
+
+# Error details
+
+```
+Error: locator.innerText: Unsupported token "@class" while parsing css selector "div[@class="cds"]". Did you mean to CSS.escape it?
+Call log:
+  - waiting for //div[@data-testid="product-card-cds"] >> nth=0 >> div[@class="cds"]
+
+    at HomePage.display (C:\Users\2398094\OneDrive - Cognizant\Desktop\Final\page\home.js:45:66)
+    at C:\Users\2398094\OneDrive - Cognizant\Desktop\Final\tests\TS_01.spec.js:38:28
+```
+
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation "Banner":
+    - list:
+      - listitem:
+        - link "For Individuals":
+          - /url: https://www.coursera.org/
+      - listitem:
+        - link "For Businesses":
+          - /url: https://www.coursera.org/business?utm_content=corp-to-home-for-enterprise&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out
+      - listitem:
+        - link "For Universities":
+          - /url: https://www.coursera.org/campus?utm_content=corp-to-landing-for-campus&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out
+      - listitem:
+        - link "For Governments":
+          - /url: https://www.coursera.org/government?utm_content=corp-to-landing-for-government&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out
+  - link "Skip to main content":
+    - /url: "#main"
+  - link "Coursera":
+    - /url: /
+  - button "Explore our catalog": Explore
+  - search:
+    - textbox "What do you want to learn?": web development courses
+    - button "Submit Search":
+      - img
+    - region
+  - list:
+    - listitem:
+      - link "Online Degrees":
+        - /url: /degrees
+    - listitem:
+      - link "Careers":
+        - /url: /career-academy?trk_ref=globalnav
+    - listitem:
+      - link "Log In":
+        - /url: /search?authMode=login&language=English&productDifficultyLevel=Beginner&query=web+development+courses&sortBy=BEST_MATCH
+    - listitem:
+      - link "Join for Free":
+        - /url: /search?authMode=signup&language=English&productDifficultyLevel=Beginner&query=web+development+courses&sortBy=BEST_MATCH
+- main:
+  - region "Filters":
+    - heading "Filter by" [level=2]
+    - link "Skip to search results":
+      - /url: "#searchResults"
+    - group "Subject Required":
+      - heading "Subject Required" [level=4]
+      - checkbox "Computer Science(973)"
+      - text: Computer Science(973)
+      - checkbox "Business(911)"
+      - text: Business(911)
+      - checkbox "Information Technology(501)"
+      - text: Information Technology(501)
+      - checkbox "Data Science(269)"
+      - text: Data Science(269)
+    - button "Show more Subject options": Show 7 more
+    - group "Language Required":
+      - heading "Language Required" [level=4]
+      - button "Information about this filter group"
+      - checkbox "English(3,529)" [checked]
+      - text: English(3,529)
+      - checkbox "Spanish(1,941)"
+      - text: Spanish(1,941)
+      - checkbox "Arabic(1,621)"
+      - text: Arabic(1,621)
+      - checkbox "French(1,590)"
+      - text: French(1,590)
+    - button "Show more Language options": Show 24 more
+    - group "Learning Product Required":
+      - heading "Learning Product Required" [level=4]
+      - checkbox "Guided Projects(285) Build job-relevant skills in under 2 hours with hands-on tutorials."
+      - text: Guided Projects(285) Build job-relevant skills in under 2 hours with hands-on tutorials.
+      - checkbox "Courses(2,452) Learn from top instructors with graded assignments, videos, and discussion forums."
+      - text: Courses(2,452) Learn from top instructors with graded assignments, videos, and discussion forums.
+      - checkbox "Projects(148) Learn a new tool or skill in an interactive, hands-on environment."
+      - text: Projects(148) Learn a new tool or skill in an interactive, hands-on environment.
+      - checkbox "Specializations(557) Get in-depth knowledge of a subject by completing a series of courses and projects."
+      - text: Specializations(557) Get in-depth knowledge of a subject by completing a series of courses and projects.
+      - checkbox "Professional Certificates(87) Earn career credentials from industry leaders that demonstrate your expertise."
+      - text: Professional Certificates(87) Earn career credentials from industry leaders that demonstrate your expertise.
+    - group "Level Required":
+      - heading "Level Required" [level=4]
+      - checkbox "Beginner(3,529)" [checked]
+      - text: Beginner(3,529)
+      - checkbox "Intermediate(2,437)"
+      - text: Intermediate(2,437)
+      - checkbox "Advanced(280)"
+      - text: Advanced(280)
+      - checkbox "Mixed(485)"
+      - text: Mixed(485)
+    - group "Duration Required":
+      - heading "Duration Required" [level=4]
+      - checkbox "Less Than 2 Hours(433)"
+      - text: Less Than 2 Hours(433)
+      - checkbox "1-4 Weeks(1,398)"
+      - text: 1-4 Weeks(1,398)
+      - checkbox "1-3 Months(1,167)"
+      - text: 1-3 Months(1,167)
+      - checkbox "3-6 Months(520)"
+      - text: 3-6 Months(520)
+    - group "Skills Required":
+      - heading "Skills Required" [level=4]
+      - group:
+        - searchbox "Search by keyword"
+      - checkbox "Innovation(292)"
+      - text: Innovation(292)
+      - checkbox "Artificial Intelligence(238)"
+      - text: Artificial Intelligence(238)
+      - checkbox "Generative AI(237)"
+      - text: Generative AI(237)
+      - checkbox "Debugging(236)"
+      - text: Debugging(236)
+    - button "Show more Skills options": Show 996 more
+    - group "Subtitles Required":
+      - heading "Subtitles Required" [level=4]
+      - checkbox "English(3,529)"
+      - text: English(3,529)
+      - checkbox "Spanish(1,622)"
+      - text: Spanish(1,622)
+      - checkbox "French(1,599)"
+      - text: French(1,599)
+      - checkbox "Arabic(1,593)"
+      - text: Arabic(1,593)
+    - button "Show more Subtitles options": Show 51 more
+    - group "Educator Required":
+      - heading "Educator Required" [level=4]
+      - group:
+        - searchbox "Search by keyword"
+      - checkbox "Coursera Project Network(272)"
+      - text: Coursera Project Network(272)
+      - checkbox "Google Cloud(203)"
+      - text: Google Cloud(203)
+      - checkbox "Packt(179)"
+      - text: Packt(179)
+      - checkbox "University of Colorado Boulder(128)"
+      - text: University of Colorado Boulder(128)
+    - button "Show more Educator options": Show 285 more
+  - heading "Results for \"web development courses\"" [level=2]
+  - 'button "Sort by: Best Match"'
+  - text: 2 active filters
+  - 'button "Clear Language: English filter"': "Language: English ,delete"
+  - button "Clear Beginner filter": Beginner ,delete
+  - button "Clear all filters": Clear all
+  - region "Search Results":
+    - list:
+      - listitem:
+        - paragraph: University of California, Davis
+        - link "Introduction to Web Development, offered by University of California, Davis, COURSE":
+          - /url: /learn/web-development
+          - heading "Introduction to Web Development" [level=3]
+        - paragraph:
+          - strong: "Skills you'll gain:"
+          - text: Version Control, Hypertext Markup Language (HTML), GitHub, Git (Version Control System), HTML and CSS, Cascading Style Sheets (CSS), Web Design and Development, Web Development, Web Design, Web Content, Front-End Web Development, Web Servers, Image Analysis, Semantic Web, Cloud Hosting, Browser Compatibility
+        - meter "Rating": 4.7 Rating, 4.7 out of 5 stars
+        - text: 3.7K reviews
+        - paragraph: Beginner · Course · 1 - 4 Weeks
+      - listitem:
+        - paragraph: Meta
+        - link "Introduction to Front-End Development, offered by Meta, COURSE":
+          - /url: /learn/introduction-to-front-end-development
+          - heading "Introduction to Front-End Development" [level=3]
+        - paragraph:
+          - strong: "Skills you'll gain:"
+          - text: HTML and CSS, Bootstrap (Front-End Framework), Responsive Web Design, Front-End Web Development, User Interface (UI), JavaScript Frameworks, Web Design and Development, Web Applications, React.js, Javascript
+        - meter "Rating": 4.8 Rating, 4.8 out of 5 stars
+        - text: 13K reviews
+        - paragraph: Beginner · Course · 1 - 4 Weeks
+      - listitem:
+        - paragraph: Meta
+        - link "Meta Front-End Developer, offered by Meta, PROFESSIONAL CERTIFICATE":
+          - /url: /professional-certificates/meta-front-end-developer
+          - heading "Meta Front-End Developer" [level=3]
+        - paragraph:
+          - strong: "Skills you'll gain:"
+          - text: Jest (JavaScript Testing Framework), Version Control, UI/UX Research, Usability Testing, Responsive Web Design, Data Structures, Unix Commands, HTML and CSS, Git (Version Control System), Persona (User Experience), GitHub, Interaction Design, User Experience Design, User Interface and User Experience (UI/UX) Design, Bootstrap (Front-End Framework), React.js, Mobile Development, Front-End Web Development, Algorithms, Javascript
+        - paragraph: Build toward a degree
+        - meter "Rating": 4.7 Rating, 4.7 out of 5 stars
+        - text: 22K reviews
+        - paragraph: Beginner · Professional Certificate · 3 - 6 Months
+      - listitem:
+        - text: "Status: AI skills"
+        - paragraph: IBM
+        - link "IBM Full Stack Software Developer, offered by IBM, PROFESSIONAL CERTIFICATE":
+          - /url: /professional-certificates/ibm-full-stack-cloud-developer
+          - heading "IBM Full Stack Software Developer" [level=3]
+        - paragraph:
+          - strong: "Skills you'll gain:"
+          - text: Istio, HTML and CSS, Node.JS, Software Development Life Cycle, Software Architecture, Kubernetes, Unit Testing, Cloud Computing Architecture, Server Side, Application Deployment, React Redux, Cloud Services, Django (Web Framework), Cloud-Native Computing, Git (Version Control System), Full-Stack Web Development, Cloud Computing, Jupyter, Large Language Modeling, Interviewing Skills
+        - paragraph: Build toward a degree
+        - meter "Rating": 4.6 Rating, 4.6 out of 5 stars
+        - text: 55K reviews
+        - paragraph: Beginner · Professional Certificate · 3 - 6 Months
+      - listitem:
+        - paragraph: University of Michigan
+        - 'link "Web Design for Everybody: Basics of Web Development & Coding, offered by University of Michigan, SPECIALIZATION"':
+          - /url: /specializations/web-design
+          - 'heading "Web Design for Everybody: Basics of Web Development & Coding" [level=3]'
+        - paragraph:
+          - strong: "Skills you'll gain:"
+          - text: Wireframing, Responsive Web Design, HTML and CSS, Web Content Accessibility Guidelines, Cascading Style Sheets (CSS), Web Design, Hypertext Markup Language (HTML), Browser Compatibility, Bootstrap (Front-End Framework), Javascript, Front-End Web Development, User Interface (UI), Web Development Tools, Verification And Validation, Interactive Design, Application Frameworks, Code Review, Web Design and Development, Event-Driven Programming, Usability
+        - meter "Rating": 4.7 Rating, 4.7 out of 5 stars
+        - text: 35K reviews
+        - paragraph: Beginner · Specialization · 3 - 6 Months
+      - listitem:
+        - paragraph: Meta
+        - link "HTML and CSS in depth, offered by Meta, COURSE":
+          - /url: /learn/html-and-css-in-depth
+          - heading "HTML and CSS in depth" [level=3]
+        - paragraph:
+          - strong: "Skills you'll gain:"
+          - text: Responsive Web Design, HTML and CSS, Bootstrap (Front-End Framework), Debugging, Front-End Web Development, Semantic Web, Browser Compatibility, Web Development, Web Content Accessibility Guidelines, User Interface (UI), Data Validation, Animations
+        - meter "Rating": 4.7 Rating, 4.7 out of 5 stars
+        - text: 1.8K reviews
+        - paragraph: Beginner · Course · 1 - 4 Weeks
+      - listitem:
+        - paragraph: IBM
+        - link "Introduction to Web Development with HTML, CSS, JavaScript, offered by IBM, COURSE":
+          - /url: /learn/introduction-to-web-development-with-html-css-javacript
+          - heading "Introduction to Web Development with HTML, CSS, JavaScript" [level=3]
+        - paragraph:
+          - strong: "Skills you'll gain:"
+          - text: Web Design and Development, Hypertext Markup Language (HTML), HTML and CSS, Web Development, Web Development Tools, Cascading Style Sheets (CSS), Front-End Web Development, Web Design, Javascript, Interactive Design, Web Applications, Full-Stack Web Development, Back-End Web Development
+        - meter "Rating": 4.6 Rating, 4.6 out of 5 stars
+        - text: 2.3K reviews
+        - paragraph: Beginner · Course · 1 - 3 Months
+      - listitem:
+        - paragraph: Johns Hopkins University
+        - link "HTML, CSS, and Javascript for Web Developers, offered by Johns Hopkins University, SPECIALIZATION":
+          - /url: /specializations/html-css-javascript-for-web-developers
+          - heading "HTML, CSS, and Javascript for Web Developers" [level=3]
+        - paragraph:
+          - strong: "Skills you'll gain:"
+          - text: Cascading Style Sheets (CSS), HTML and CSS, Javascript, Ajax, Responsive Web Design, Bootstrap (Front-End Framework), Front-End Web Development, Web Design, Hypertext Markup Language (HTML), Web Design and Development, JSON, Web Applications, Web Development, Scripting, Usability, Cross Platform Development, Browser Compatibility, Object Oriented Programming (OOP), Event-Driven Programming, User Interface and User Experience (UI/UX) Design
+        - meter "Rating": 4.7 Rating, 4.7 out of 5 stars
+        - text: 17K reviews
+        - paragraph: Beginner · Specialization · 1 - 3 Months
+      - listitem:
+        - paragraph: Amazon Web Services
+        - link "AWS Fundamentals, offered by Amazon Web Services, SPECIALIZATION":
+          - /url: /specializations/aws-fundamentals
+          - heading "AWS Fundamentals" [level=3]
+        - paragraph:
+          - strong: "Skills you'll gain:"
+          - text: AWS Identity and Access Management (IAM), Amazon CloudWatch, Amazon DynamoDB, Amazon Web Services, Serverless Computing, Cloud Computing, Amazon S3, Scalability, Amazon Elastic Compute Cloud, Event-Driven Programming, Solution Architecture, Cloud Computing Architecture, Data Migration, Cloud Storage, API Gateway, Hybrid Cloud Computing, Cloud Management, Cloud Infrastructure, Cloud Security, Data Import/Export
+        - meter "Rating": 4.8 Rating, 4.8 out of 5 stars
+        - text: 6.4K reviews
+        - paragraph: Beginner · Specialization · 1 - 3 Months
+      - listitem:
+        - paragraph: Meta
+        - link "Meta Back-End Developer, offered by Meta, PROFESSIONAL CERTIFICATE":
+          - /url: /professional-certificates/meta-back-end-developer
+          - heading "Meta Back-End Developer" [level=3]
+        - paragraph:
+          - strong: "Skills you'll gain:"
+          - text: Django (Web Framework), Full-Stack Web Development, Version Control, Restful API, Data Structures, Unix Commands, Bootstrap (Front-End Framework), Git (Version Control System), Back-End Web Development, GitHub, Web Design and Development, Relational Databases, Front-End Web Development, Object Oriented Programming (OOP), Database Management Systems, SQL, Database Design, Unit Testing, Algorithms, Web Development
+        - paragraph: Build toward a degree
+        - meter "Rating": 4.6 Rating, 4.6 out of 5 stars
+        - text: 9.2K reviews
+        - paragraph: Beginner · Professional Certificate · 3 - 6 Months
+      - listitem:
+        - paragraph: Amazon
+        - link "Full Stack Web Development, offered by Amazon, COURSE":
+          - /url: /learn/fullstack-web-development
+          - heading "Full Stack Web Development" [level=3]
+        - paragraph:
+          - strong: "Skills you'll gain:"
+          - text: Full-Stack Web Development, Restful API, Front-End Web Development, Web Services, Application Deployment, Web Development, Spring Framework, Amazon Web Services, HTML and CSS, Application Programming Interface (API), Server Side, Web Applications, Back-End Web Development, Spring Boot, Model View Controller, Responsive Web Design, Javascript
+        - meter "Rating": 4.5 Rating, 4.5 out of 5 stars
+        - text: 12 reviews
+        - paragraph: Beginner · Course · 1 - 4 Weeks
+      - listitem:
+        - text: "Status: New AI skills"
+        - paragraph: Google
+        - link "Google UX Design, offered by Google, PROFESSIONAL CERTIFICATE":
+          - /url: /professional-certificates/google-ux-design
+          - heading "Google UX Design" [level=3]
+        - paragraph:
+          - strong: "Skills you'll gain:"
+          - text: Storyboarding, Wireframing, Responsive Web Design, User Experience Design, Design Thinking, User Research, UI/UX Research, Information Architecture, Figma (Design Software), Usability Testing, Professional Networking, User Story, Web Design, Design Reviews, Usability, Presentations, User Experience, Design Research, Ideation, Interviewing Skills
+        - paragraph: Build toward a degree
+        - meter "Rating": 4.8 Rating, 4.8 out of 5 stars
+        - text: 90K reviews
+        - paragraph: Beginner · Professional Certificate · 3 - 6 Months
+- contentinfo:
+  - contentinfo:
+    - paragraph: Coursera Footer
+    - paragraph: Technical Skills
+    - list:
+      - listitem:
+        - link "ChatGPT":
+          - /url: https://www.coursera.org/courses?query=chatgpt
+      - listitem:
+        - link "Coding":
+          - /url: https://www.coursera.org/courses?query=coding
+      - listitem:
+        - link "Computer Science":
+          - /url: https://www.coursera.org/courses?query=computer%20science&topic=Computer%20Science
+      - listitem:
+        - link "Cybersecurity":
+          - /url: https://www.coursera.org/courses?query=cybersecurity
+      - listitem:
+        - link "DevOps":
+          - /url: https://www.coursera.org/courses?query=devops
+      - listitem:
+        - link "Ethical Hacking":
+          - /url: https://www.coursera.org/courses?query=ethical%20hacking
+      - listitem:
+        - link "Generative AI":
+          - /url: https://www.coursera.org/courses?query=generative%20ai
+      - listitem:
+        - link "Java Programming":
+          - /url: https://www.coursera.org/courses?query=java
+      - listitem:
+        - link "Python":
+          - /url: https://www.coursera.org/courses?query=python
+      - listitem:
+        - link "Web Development":
+          - /url: https://www.coursera.org/courses?query=web%20development
+    - paragraph: Analytical Skills
+    - list:
+      - listitem:
+        - link "Artificial Intelligence":
+          - /url: https://www.coursera.org/courses?query=artificial%20intelligence
+      - listitem:
+        - link "Big Data":
+          - /url: https://www.coursera.org/courses?query=big%20data
+      - listitem:
+        - link "Business Analysis":
+          - /url: https://www.coursera.org/courses?query=business%20analysis
+      - listitem:
+        - link "Data Analytics":
+          - /url: https://www.coursera.org/courses?query=data%20analytics
+      - listitem:
+        - link "Data Science":
+          - /url: https://www.coursera.org/courses?query=data%20science&topic=Data%20Science
+      - listitem:
+        - link "Financial Modeling":
+          - /url: https://www.coursera.org/courses?query=financial%20modeling
+      - listitem:
+        - link "Machine Learning":
+          - /url: https://www.coursera.org/courses?query=machine%20learning&skills=Machine%20Learning
+      - listitem:
+        - link "Microsoft Excel":
+          - /url: https://www.coursera.org/courses?query=microsoft%20excel
+      - listitem:
+        - link "Microsoft Power BI":
+          - /url: https://www.coursera.org/courses?query=microsoft%20power%20bi
+      - listitem:
+        - link "SQL":
+          - /url: https://www.coursera.org/courses?query=sql
+    - paragraph: Business Skills
+    - list:
+      - listitem:
+        - link "Accounting":
+          - /url: https://www.coursera.org/courses?query=accounting
+      - listitem:
+        - link "Digital Marketing":
+          - /url: https://www.coursera.org/courses?query=digital%20marketing
+      - listitem:
+        - link "E-commerce":
+          - /url: https://www.coursera.org/courses?query=e-commerce
+      - listitem:
+        - link "Finance":
+          - /url: https://www.coursera.org/courses?query=finance&skills=Finance
+      - listitem:
+        - link "Google":
+          - /url: https://www.coursera.org/courses?query=google
+      - listitem:
+        - link "Graphic Design":
+          - /url: https://www.coursera.org/courses?query=graphic%20design
+      - listitem:
+        - link "IBM":
+          - /url: https://www.coursera.org/courses?query=ibm
+      - listitem:
+        - link "Marketing":
+          - /url: https://www.coursera.org/courses?query=marketing&skills=Marketing
+      - listitem:
+        - link "Project Management":
+          - /url: https://www.coursera.org/courses?query=project%20management
+      - listitem:
+        - link "Social Media Marketing":
+          - /url: https://www.coursera.org/courses?query=social%20media%20marketing
+    - paragraph: Career Resources
+    - list:
+      - listitem:
+        - link "Essential IT Certifications":
+          - /url: https://www.coursera.org/articles/essential-it-certifications-entry-level-and-beginner
+      - listitem:
+        - link "High-Income Skills to Learn":
+          - /url: https://www.coursera.org/articles/high-income-skills
+      - listitem:
+        - link "How to Get a PMP Certification":
+          - /url: https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started
+      - listitem:
+        - link "How to Learn Artificial Intelligence":
+          - /url: https://www.coursera.org/articles/how-to-learn-artificial-intelligence
+      - listitem:
+        - link "Popular Cybersecurity Certifications":
+          - /url: https://www.coursera.org/articles/popular-cybersecurity-certifications
+      - listitem:
+        - link "Popular Data Analytics Certifications":
+          - /url: https://www.coursera.org/articles/data-analytics-certification
+      - listitem:
+        - link "What Does a Data Analyst Do?":
+          - /url: https://www.coursera.org/articles/what-does-a-data-analyst-do-a-career-guide
+      - listitem:
+        - link "Career Development Resources":
+          - /url: https://www.coursera.org/resources
+      - listitem:
+        - link "Career Aptitude Test":
+          - /url: https://www.coursera.org/resources/career-quiz
+      - listitem:
+        - link "Share your Coursera Learning Story":
+          - /url: https://airtable.com/appxSsG2Dz9CjSpF8/pagCDDP2Uinw59CNP/form
+    - paragraph: Coursera
+    - list:
+      - listitem:
+        - link "About":
+          - /url: https://about.coursera.org/
+      - listitem:
+        - link "What We Offer":
+          - /url: https://about.coursera.org/how-coursera-works/
+      - listitem:
+        - link "Leadership":
+          - /url: https://about.coursera.org/leadership
+      - listitem:
+        - link "Careers":
+          - /url: https://careers.coursera.com/
+      - listitem:
+        - link "Catalog":
+          - /url: /browse
+      - listitem:
+        - link "Coursera Plus":
+          - /url: /courseraplus
+      - listitem:
+        - link "Professional Certificates":
+          - /url: /professional-certificate
+      - listitem:
+        - link "MasterTrack® Certificates":
+          - /url: /mastertrack
+      - listitem:
+        - link "Degrees":
+          - /url: /degrees
+      - listitem:
+        - link "For Enterprise":
+          - /url: /business?utm_campaign=website&utm_content=corp-to-home-footer-for-enterprise&utm_medium=coursera&utm_source=enterprise
+      - listitem:
+        - link "For Government":
+          - /url: /government?utm_campaign=website&utm_content=corp-to-home-footer-for-government&utm_medium=coursera&utm_source=enterprise
+      - listitem:
+        - link "For Campus":
+          - /url: /campus?utm_campaign=website&utm_content=corp-to-home-footer-for-campus&utm_medium=coursera&utm_source=enterprise
+      - listitem:
+        - link "Become a Partner":
+          - /url: https://partnerships.coursera.org/?utm_medium=coursera&utm_source=partnerships&utm_campaign=website&utm_content=corp-to-home-footer-become-a-partner
+      - listitem:
+        - link "Social Impact":
+          - /url: /social-impact
+      - listitem:
+        - link "Free Courses":
+          - /url: https://www.coursera.org/courses?query=free
+      - listitem:
+        - link "ECTS Credit Recommendations":
+          - /url: https://www.coursera.org/explore/ects-credit-recommendation
+    - paragraph: Community
+    - list:
+      - listitem:
+        - link "Learners":
+          - /url: https://www.coursera.community
+      - listitem:
+        - link "Partners":
+          - /url: https://www.coursera.org/partners
+      - listitem:
+        - link "Beta Testers":
+          - /url: https://www.coursera.support/s/article/360000152926-Become-a-Coursera-beta-tester
+      - listitem:
+        - link "Blog":
+          - /url: https://blog.coursera.org
+      - listitem:
+        - link "The Coursera Podcast":
+          - /url: https://open.spotify.com/show/58M36bneU7REOofdPZxe6A
+      - listitem:
+        - link "Tech Blog":
+          - /url: https://medium.com/coursera-engineering
+      - listitem:
+        - link "Teaching Center":
+          - /url: /teaching-center
+    - paragraph: More
+    - list:
+      - listitem:
+        - link "Press":
+          - /url: /about/press
+      - listitem:
+        - link "Investors":
+          - /url: https://investor.coursera.com
+      - listitem:
+        - link "Terms":
+          - /url: /about/terms
+      - listitem:
+        - link "Privacy":
+          - /url: /about/privacy
+      - listitem:
+        - link "Help":
+          - /url: https://learner.coursera.help/hc
+      - listitem:
+        - link "Accessibility":
+          - /url: https://learner.coursera.help/hc/articles/360050668591-Accessibility-Statement
+      - listitem:
+        - link "Contact":
+          - /url: /about/contact
+      - listitem:
+        - link "Articles":
+          - /url: https://www.coursera.org/articles
+      - listitem:
+        - link "Directory":
+          - /url: /directory
+      - listitem:
+        - link "Affiliates":
+          - /url: https://about.coursera.org/affiliates
+      - listitem:
+        - link "Modern Slavery Statement":
+          - /url: https://coursera_assets.s3.amazonaws.com/footer/Modern+Slavery+Statement+(approved+March+26%2C+2025).pdf
+      - listitem:
+        - link "Manage Cookie Preferences":
+          - /url: /about/cookies-manage
+    - link "Download on the App Store":
+      - /url: https://itunes.apple.com/app/apple-store/id736535961?pt=2334150&ct=Coursera%20Web%20Promo%20Banner&mt=8
+      - img "Download on the App Store"
+    - link "Get it on Google Play":
+      - /url: http://play.google.com/store/apps/details?id=org.coursera.android
+      - img "Get it on Google Play"
+    - img "Logo of Certified B Corporation"
+    - text: © 2025 Coursera Inc. All rights reserved.
+    - list:
+      - listitem:
+        - link "Coursera Facebook":
+          - /url: https://www.facebook.com/Coursera
+          - img "Coursera Facebook"
+      - listitem:
+        - link "Coursera Linkedin":
+          - /url: https://www.linkedin.com/company/coursera
+          - img "Coursera Linkedin"
+      - listitem:
+        - link "Coursera Twitter":
+          - /url: https://twitter.com/coursera
+          - img "Coursera Twitter"
+      - listitem:
+        - link "Coursera YouTube":
+          - /url: https://www.youtube.com/user/coursera
+          - img "Coursera YouTube"
+      - listitem:
+        - link "Coursera Instagram":
+          - /url: https://www.instagram.com/coursera/
+          - img "Coursera Instagram"
+      - listitem:
+        - link "Coursera TikTok":
+          - /url: https://www.tiktok.com/@coursera
+          - img "Coursera TikTok"
+```
+
+# Test source
+
+```ts
+   1 |
+   2 |
+   3 | export class HomePage{
+   4 |     constructor(page){
+   5 |         this.page = page
+   6 |         this.search=page.getByPlaceholder('What do you want to learn?');
+   7 |         this.english_unchecked=page.getByTestId("language:English-false");
+   8 |         this.beginner_unchecked=page.getByTestId("productDifficultyLevel:Beginner-false");
+   9 |         this.res='//div[@data-testid="product-card-cds"]';
+  10 |         this.name='//h3[@class="cds-CommonCard-title css-6ecy9b"]';
+  11 |         this.rating='div[@class="cds"]';
+  12 |         ////div[@class="cds-RatingStat-meter"]/div'
+  13 |         this.duration='//div[@class="cds-CommonCard-metadata"]/p';
+  14 |         this.show_more='//button[@aria-label="Show more Language options"]';
+  15 |         this.language='//div[contains(@data-testid,"language")]';
+  16 |         this.level="//div[contains(@data-testid,'productDifficultyLevel')]";
+  17 |
+  18 |         //locator for validation
+  19 |         this.english_checked = page.getByTestId("language:English-true").locator('input');
+  20 |         this.beginner_checked = page.getByTestId("productDifficultyLevel:Beginner-true").locator('input');
+  21 |         this.searchedCourse = '//div[@id="search-results-header-wrapper"]//descendant::span'
+  22 |     }
+  23 |  
+  24 |     async navigate(url){
+  25 |         await this.page.goto(url)
+  26 |         await this.page.waitForLoadState('load')
+  27 |     }
+  28 |     async searchForCourse(name){
+  29 |         await this.search.fill(name);
+  30 |         await this.page.keyboard.down('Enter')
+  31 |     }
+  32 |     async filter(){
+  33 |         await this.page.waitForLoadState('domcontentloaded')
+  34 |         await this.english_unchecked.locator('input').click();
+  35 |         await this.beginner_unchecked.locator('input').click();
+  36 |     }
+  37 |     async display() {
+  38 |         await this.page.waitForLoadState('networkidle')
+  39 |         const results = await this.page.locator(this.res).all();  
+  40 |         //await this.page.waitForLoadState('networkidle')
+  41 |         let courseDetails=[];
+  42 |         for (let i = 0; i < Math.min(2, results.length); i++) {
+  43 |             const courseName = await results[i].locator(this.name).innerText()
+  44 |             //console.log(courseName);
+> 45 |             const rating = await results[i].locator(this.rating).innerText()
+     |                                                                  ^ Error: locator.innerText: Unsupported token "@class" while parsing css selector "div[@class="cds"]". Did you mean to CSS.escape it?
+  46 |             //console.log(rating);
+  47 |             const duration = await results[i].locator(this.duration).innerText();
+  48 |             const split = duration.split(' · ');
+  49 |             const time = split[2]
+  50 |             //console.log(time);
+  51 |             const course = {
+  52 |                 courseName: courseName,
+  53 |                 rating: rating,
+  54 |                 duration: time
+  55 |             }
+  56 |             courseDetails.push(course);
+  57 |         }
+  58 |         return courseDetails;
+  59 |     }
+  60 |     async lang()
+  61 |     {
+  62 |         await this.page.waitForLoadState('networkidle');
+  63 |         await this.page.locator(this.show_more).click();
+  64 |         await this.page.waitForLoadState('networkidle');
+  65 |
+  66 |         const languageElements = await this.page.locator(this.language).all();
+  67 |         let languages=[];
+  68 |         //console.log(languageElements.length)
+  69 |         for (const lang of languageElements) {
+  70 |             languages.push(await lang.innerText())
+  71 |         }
+  72 |         return languages
+  73 |     }
+  74 |     async levels()
+  75 |     {
+  76 |         const level = await this.page.locator(this.level).all();
+  77 |         //console.log(level.length)
+  78 |         let levels=[]
+  79 |         for (const le of level) {
+  80 |             levels.push(await le.innerText()); 
+  81 |         }
+  82 |         return levels
+  83 |     }
+  84 |     
+  85 | }
+```

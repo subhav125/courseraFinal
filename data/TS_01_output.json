@@ -1,0 +1,14 @@
+{
+  "courseDetails": [
+    {
+      "courseName": "Introduction to Web Development",
+      "rating": "Rating, 4.7 out of 5 stars",
+      "duration": "1 - 4 Weeks"
+    },
+    {
+      "courseName": "Introduction to Front-End Development",
+      "rating": "Rating, 4.8 out of 5 stars",
+      "duration": "1 - 4 Weeks"
+    }
+  ]
+}
