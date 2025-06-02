@@ -4,7 +4,7 @@ import { HomePage } from '../page/home.js';
 import { writeDataToOutput } from '../utils/writeData.js';
 
 let output={};
-//test scenario 1 and 2
+//test scenario 1
 test.describe.serial('TS_01 : Web development Courses',()=>{
     let homePage
     let page
