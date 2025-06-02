@@ -35,7 +35,7 @@ test.describe.serial('TS_03 : Enterprise',()=>{
         const error = await enterprisePage.getTheError()
         //storing the error in output as an object
         output={
-            error:error
+            error:error 
         }
     })
     test("writing output in json",async ()=>{
